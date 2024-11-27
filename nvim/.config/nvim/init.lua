@@ -1,2 +1,8 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
+-- Load core configurations
+require("core")
+
+-- Load Lazy
+require("plug")
+
+-- Colorscheme
+vim.cmd("colorscheme rose-pine")
