@@ -34,7 +34,6 @@ return {
 					"html",
 					"cssls",
 					"pyright",
-					"vtsls",
 					"stimulus_ls",
 				},
 				handlers = {
@@ -49,7 +48,6 @@ return {
 			require("mason-tool-installer").setup({
 				ensure_installed = {
 					-- Linters
-					"eslint_d",
 					"eslint",
 					"stylelint",
 					"markdownlint",

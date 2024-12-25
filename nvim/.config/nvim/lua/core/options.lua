@@ -72,6 +72,5 @@ opt.ignorecase = true -- Ignore case
 opt.smartcase = true -- Override ignorecase if pattern has uppercase
 
 opt.showcmd = true
-opt.cmdheight = 0
 opt.laststatus = 0
 opt.scrolloff = 10
