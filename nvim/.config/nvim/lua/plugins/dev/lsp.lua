@@ -34,7 +34,6 @@ return {
           "html",
           "cssls",
           "pyright",
-          "lua-language-server",
           "stimulus_ls",
         },
         handlers = {
